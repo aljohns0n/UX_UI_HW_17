@@ -41,3 +41,15 @@ h5{
 .card-right{
     padding-right:2.5em;
 }
+
+
+/* css to change with bootstrap responsive size */
+@media only screen and (max-width: 760px) {
+        .card-right{
+            padding-left:2.5em;
+        }
+        .card-left{
+            padding-right:2.5em;
+        }
+    }
+}
