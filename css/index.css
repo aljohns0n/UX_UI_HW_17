@@ -1,0 +1,43 @@
+
+.navbar-logo{
+    width:55px;
+}
+
+.navbar-brand{
+    padding-left: 20px;
+}
+
+.nav-link{
+    font-family: 'Be Vietnam Pro';
+    font-size: 1em;
+    color:#939393;
+}
+
+.nav-link:hover{
+    color: black
+}
+
+.nav-active{
+    color: #C72A85;
+    border-bottom: 3px solid;
+    
+}
+
+h5{
+    font-family:"Playfair Display";
+    font-weight:700;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.card{
+    border-color: white;
+}
+
+.card-left{
+    padding-left: 2.5em;
+}
+
+.card-right{
+    padding-right:2.5em;
+}
