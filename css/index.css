@@ -28,7 +28,6 @@ h5{
     font-size: 2.5em;
     text-align: center;
 }
-
 .card{
     border-color: white;
     padding-top: 2em;
@@ -42,6 +41,47 @@ h5{
     padding-right:2.7em;
 }
 
+/*Accordion*/
+.accordion-header-text{
+    font-family:"Playfair Display";
+    font-weight:700;
+    font-size: 2.5em;
+    width:auto;
+    margin: auto;
+    text-align: center;
+    padding:.2em;
+}
+
+/*underlines case study title when accordion is open*/
+.accordion-header-text:not(.collapsed){
+    background-color: #D8EDFF;
+}
+
+/*sets bg-color & txt color when accordion is open*/
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+}
+
+/*overwrite bootstrap default - "arrow" icon only takes up width of icon*/
+.accordion-button:after{
+    margin-left:0px;
+}
+
+/*overwrite bootstrap default - accordion is clicked, no blue "focus" box appears*/
+.accordion-button:focus{
+    box-shadow: 0 0 0 0;
+}
+
+/*overwrite bootstrap default - when accordion is clicked, no bottom line*/
+.accordion-button{
+    border: 0px;
+}
+
+/*overwrite bootstrap default - when accordion is clicked, no bottom line*/
+.accordion-collapse{
+    border:0px;
+}
 
 /* css to change with bootstrap responsive size */
 @media only screen and (max-width: 760px) {
