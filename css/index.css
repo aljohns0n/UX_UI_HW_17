@@ -1,9 +1,16 @@
-p{
+h2{
     font-family: "Be Vietnam Pro"
+}
+p{
+    font-family: "Be Vietnam Pro";
+    font-weight: 400;
+    font-size: 1em;
 }
 /*nav bar styling*/
     .navbar-logo{
-        width:55px;
+        height:3em;
+        width:auto;
+        padding-left:1em;
     }
 
     .navbar-brand{
@@ -12,8 +19,9 @@ p{
 
     .nav-link{
         font-family: 'Be Vietnam Pro';
-        font-size: 1em;
+        font-size: 1.1em;
         color:#939393;
+ 
     }
 
     .nav-link:hover{
@@ -25,7 +33,27 @@ p{
         border-bottom: 3px solid;
 
     }
+/*footer styling*/
+    #footer-container{
+        margin-top:5em;
+        padding-left:5em;
+        padding-right:5em;
+        padding-top:6em;
+        padding-bottom:5em;
+    }
 
+    .footer-icons{
+        padding-right:1em;
+        padding-left:0;
+        padding-top:0;
+    }
+.footer-work{
+    padding-right:0;
+    padding-top:.1em;
+    padding-bottom: .1em;
+}
+
+    
 .card{
     border-color: white;
     padding-top: 2em;
