@@ -1,3 +1,6 @@
+p{
+    font-family: "Be Vietnam Pro"
+}
 /*nav bar styling*/
     .navbar-logo{
         width:55px;
@@ -29,11 +32,13 @@
 }
 
 .card-left{
-    padding-left: 3em;
+    padding-left: 3.5em;
+    padding-right:.5em;
 }
 
 .card-right{
-    padding-right:3em;
+    padding-right:3.5em;
+    padding-left:.5em;
 }
 
 /*view case study button*/
@@ -45,7 +50,7 @@
     border-radius: 0;
     padding:0;
 }
-.btn:hover{
+.btn-case:hover{
     background-color: #FFD1E9;
 }
 
@@ -58,6 +63,24 @@
 
 .button-case-text:hover{
     border-left-color:#FFD1E9;
+}
+
+
+/*footer*/
+.footer-button:hover{
+    fill:black;
+}
+
+#footer-header{
+    text-align: center;
+    font-family: "Be Vietnam Pro"
+}
+
+
+#footer-text{
+    color:#939393;
+    font-size:.9em;
+    text-align: center;
 }
 /*Accordion*/
     .accordion-header-text{
