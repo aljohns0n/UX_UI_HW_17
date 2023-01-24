@@ -43,15 +43,15 @@ p{
     }
 
     .footer-icons{
-        padding-right:1em;
+        padding-right:1.5em;
         padding-left:0;
         padding-top:0;
     }
-.footer-work{
-    padding-right:0;
-    padding-top:.1em;
-    padding-bottom: .1em;
-}
+    .footer-work{
+        padding-right:0;
+        padding-top:.1em;
+        padding-bottom: .1em;
+    }
 
     
 .card{
