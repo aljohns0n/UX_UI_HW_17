@@ -49,9 +49,15 @@ p{
     }
     .footer-work{
         padding-right:0;
-        padding-top:.1em;
-        padding-bottom: .1em;
+        padding-top:0;
+        padding-bottom:.5em;
+        text-align:end;
+        font-size: 1em;
     }
+.footer-header{
+    font-size:1.4em;
+    text-align:end
+}
 
     
 .card{
@@ -61,12 +67,12 @@ p{
 }
 
 .card-left{
-    padding-left: 3.5em;
+    padding-left: 4em;
     padding-right:.5em;
 }
 
 .card-right{
-    padding-right:3.5em;
+    padding-right:4em;
     padding-left:.5em;
 }
 
